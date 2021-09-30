@@ -1,7 +1,7 @@
-// Paste the license up here
+// Paste the  SPDX license up here
 pragma solidity 0.7.2;
 
-contract Multiplication {   // the name of my contract is   Multiplication
+contract Multiplication {   // the name of contract is   Multiplication
     uint initNum1 // I declared an integer called initial number called initNum1
     uint initNum2; // same here
 
