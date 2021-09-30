@@ -1,7 +1,7 @@
 pragma solidity 0.7.2;
 
 contract cls {
-    int public mark;
+    int public Percentage;
 
     address public lecturer;
 
@@ -23,13 +23,13 @@ contract cls {
     }
 
     function checkres()npublic view onlyLecturer returns (string= memory) {
-        if (mark >= 50 && mark <= 100)
+        if (Percent>= 50 && Percent <= 100)
         {
             return "Passed!"
-        if (mark < 50) {
+        if (Percent < 50) {
             return "Failed!"
         }
-        if (mark > 100) {
+        if (Percent > 100) {
             return "Awesome you cheated! :)"
         }
         }
