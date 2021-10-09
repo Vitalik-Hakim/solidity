@@ -37,4 +37,5 @@ contract GuestHouse{  // A Contract called GuestHouse
 
     // basically what this contract does is book rooms for addresses that send the ether to it. if its not enough the money is not sent
     // if its enough the room is booked. Also it checks whether the room is Occupied or not to prevent double bookings
+    // May be errors in it now. But you can try updating the Solidity version
 }
