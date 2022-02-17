@@ -2,7 +2,7 @@
 pragma solidity 0.7.2;
 
 contract Multiplication {   // the name of contract is   Multiplication
-    uint initNum1 // I declared an integer called initial number called initNum1
+    uint initNum1; // I declared an integer called initial number called initNum1
     uint initNum2; // same here
 
     constructor(){
